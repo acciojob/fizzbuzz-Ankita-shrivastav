@@ -1,15 +1,15 @@
 //your JS code here. If required.
 for(let i=1;i<=20;i++){
 	if(i%3==0){
-		("Fizz");
+		alert("Fizz");
 	}
 	else if(i%5==0){
-		("Buzz");
+		alert("Buzz");
 	}
 	else if(i%3==0 && i%5==0){
-		("Fizz Buzz");
+		alert("FizzBuzz");
 	}
 	else{
-		(i);
+		alert(i);
 	}
 }
